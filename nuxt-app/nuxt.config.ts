@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
   ],
+  app:{
+    baseURL: '/2023/'
+  },
   i18n: {
     strategy: 'prefix',
     baseUrl: '/2023/',
